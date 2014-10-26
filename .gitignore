@@ -1,0 +1,5 @@
+# just java files for now
+*.class
+*.project
+!*.java
+
