@@ -1,0 +1,885 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"url",
+				"urlretrieve"
+			],
+			[
+				"ls",
+				"lstat  (function)"
+			],
+			[
+				"p",
+				"path  (module)"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"fil",
+				"file_name"
+			],
+			[
+				"num",
+				"num_digits"
+			],
+			[
+				"read",
+				"readskip"
+			],
+			[
+				"o",
+				"o_low"
+			],
+			[
+				"pivo",
+				"pivot_pos"
+			],
+			[
+				"pi",
+				"pivot_pos"
+			],
+			[
+				"digi",
+				"digit_list"
+			],
+			[
+				"last",
+				"lastVal"
+			],
+			[
+				"max",
+				"maximum"
+			],
+			[
+				"pos",
+				"postponed_sieve"
+			],
+			[
+				"it",
+				"items  (function)"
+			],
+			[
+				"facs",
+				"facs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Euler/euler13.py",
+			"settings":
+			{
+				"buffer_size": 459,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "file-grabber.py",
+			"settings":
+			{
+				"buffer_size": 1299,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nPython 3.4.0 (default, Apr 11 2014, 13:05:11) \n[GCC 4.8.2] on linux\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n(InteractiveConsole)\n>>> >>> 1+2\n3\n>>> >>> >>> >>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 8\n    print \"hi\"\n             ^\nSyntaxError: invalid syntax\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 9, in <module>\n  File \"<string>\", line 7, in get_files\nFileNotFoundError: [Errno 2] No such file or directory: '~/Pictures/algebra-solutions/test.jpg'\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 9, in <module>\n  File \"<string>\", line 7, in get_files\nFileNotFoundError: [Errno 2] No such file or directory: '/home/Pictures/algebra-solutions/test.jpg'\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 9, in <module>\n  File \"<string>\", line 7, in get_files\nFileNotFoundError: [Errno 2] No such file or directory: 'home/Pictures/algebra-solutions/test.jpg'\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 12, in <module>\n  File \"<string>\", line 10, in get_files\nFileNotFoundError: [Errno 2] No such file or directory: '/home/Pictures/algebra-solutions/test.jpg'\n>>> >>> a = \"git\"\n>>> a\n'git'\n>>> a + \"3\"\n'git3'\n>>> a\n'git'\n>>> a = a + \"3\"\n>>> a\n'git3'\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 6, in <module>\nImportError: No module named 'reportlab'\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n>>> print(path)\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\nNameError: name 'path' is not defined\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 34\n    print path\n             ^\nSyntaxError: invalid syntax\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n<module 'posixpath' from '/home/riley/.virtualenvs/pywork3/lib/python3.4/posixpath.py'>\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 44, in <module>\n  File \"<string>\", line 36, in create_pdf\nNameError: name 'inch' is not defined\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n<module 'posixpath' from '/home/riley/.virtualenvs/pywork3/lib/python3.4/posixpath.py'>\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n<built-in function listdir>\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n['test.jpg']\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 39\n    pictures = glob.glob(.*)\n                         ^\nSyntaxError: invalid syntax\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n['test.jpg']\n[]\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n['test.jpg']\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 39\n    for(pic in pictures):\n                        ^\nSyntaxError: invalid syntax\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 48, in <module>\n  File \"<string>\", line 41, in create_pdf\nNameError: name 'im' is not defined\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nimg010.jpg\nimg011.jpg\nimg012.jpg\nimg013.jpg\nimg014.jpg\nimg015.jpg\nimg016.jpg\nimg017.jpg\nimg018.jpg\nimg019.jpg\nimg020.jpg\nimg021.jpg\nimg022.jpg\nimg023.jpg\nimg024.jpg\nimg025.jpg\nimg026.jpg\nimg027.jpg\nimg028.jpg\nimg029.jpg\nimg030.jpg\nimg031.jpg\nimg032.jpg\nimg033.jpg\nimg034.jpg\nimg035.jpg\nimg036.jpg\nimg037.jpg\nimg038.jpg\nimg039.jpg\nimg040.jpg\nimg041.jpg\nimg042.jpg\nimg043.jpg\nimg044.jpg\nimg045.jpg\nimg046.jpg\nimg047.jpg\nimg048.jpg\nimg049.jpg\nimg050.jpg\nimg051.jpg\nimg052.jpg\nimg053.jpg\nimg054.jpg\nimg055.jpg\nimg056.jpg\nimg057.jpg\nimg058.jpg\nimg059.jpg\nimg060.jpg\nimg061.jpg\nimg062.jpg\nimg063.jpg\nimg064.jpg\nimg065.jpg\nimg066.jpg\nimg067.jpg\nimg068.jpg\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 48, in <module>\n  File \"<string>\", line 43, in create_pdf\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 1127, in build\n    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 890, in build\n    self.handle_flowable(flowables)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 773, in handle_flowable\n    if frame.add(f, canv, trySplit=self.allowSplitting):\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/frames.py\", line 161, in _add\n    w, h = flowable.wrap(aW, h)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 477, in wrap\n    return self.drawWidth, self.drawHeight\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 471, in __getattr__\n    self._setup_inner()\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 437, in _setup_inner\n    img = self._img\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 467, in __getattr__\n    self._img = ImageReader(self._file)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 759, in __init__\n    annotateException('\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 753, in __init__\n    annotateException('\\nImaging Library not available, unable to import bitmaps only jpegs\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 751, in __init__\n    self._width,self._height,c=readJPEGInfo(self.fp)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/pdfbase/pdfutils.py\", line 237, in readJPEGInfo\n    x = struct.unpack('B', image.read(1))\nstruct.error: unpack requires a bytes object of length 1\nImaging Library not available, unable to import bitmaps only jpegs\nfileName='img030.jpg' identity=[ImageReader@0x7f30b9a447f0 filename='img030.jpg']\nfileName='img030.jpg' identity=[ImageReader@0x7f30b9a447f0 filename='img030.jpg']\n>>> listdir\n<built-in function listdir>\n>>> listdir()\n['img030.jpg', 'img051.jpg', 'img026.jpg', 'img056.jpg', 'img053.jpg', 'img015.jpg', 'img012.jpg', 'img041.jpg', 'img023.jpg', 'img034.jpg', 'img054.jpg', 'img017.jpg', 'img025.jpg', 'img031.jpg', 'img035.jpg', 'test.jpg', 'img050.jpg', 'img032.jpg', 'img048.jpg', 'img044.jpg', 'img037.jpg', 'img058.jpg', 'img027.jpg', 'img055.jpg', 'img067.jpg', 'img045.jpg', 'img029.jpg', 'img021.jpg', 'img008.jpg', 'img013.jpg', 'img065.jpg', 'img039.jpg', 'img006.jpg', 'img062.jpg', 'img068.jpg', 'img059.jpg', 'img049.jpg', 'img052.jpg', 'img024.jpg', 'img063.jpg', 'img009.jpg', 'img028.jpg', 'img018.jpg', 'img064.jpg', 'img020.jpg', 'img019.jpg', 'img022.jpg', 'img011.jpg', 'img040.jpg', 'img038.jpg', 'img066.jpg', 'img036.jpg', 'img047.jpg', 'img060.jpg', 'img016.jpg', 'img057.jpg', 'img042.jpg', 'img010.jpg', 'img014.jpg', 'img033.jpg', 'img061.jpg', 'img046.jpg', 'img007.jpg', 'img043.jpg', 'img005.jpg']\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 58, in <module>\n  File \"<string>\", line 53, in create_pdf\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 1127, in build\n    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 890, in build\n    self.handle_flowable(flowables)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 773, in handle_flowable\n    if frame.add(f, canv, trySplit=self.allowSplitting):\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/frames.py\", line 161, in _add\n    w, h = flowable.wrap(aW, h)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 477, in wrap\n    return self.drawWidth, self.drawHeight\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 471, in __getattr__\n    self._setup_inner()\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 437, in _setup_inner\n    img = self._img\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 467, in __getattr__\n    self._img = ImageReader(self._file)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 759, in __init__\n    annotateException('\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 753, in __init__\n    annotateException('\\nImaging Library not available, unable to import bitmaps only jpegs\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 751, in __init__\n    self._width,self._height,c=readJPEGInfo(self.fp)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/pdfbase/pdfutils.py\", line 237, in readJPEGInfo\n    x = struct.unpack('B', image.read(1))\nstruct.error: unpack requires a bytes object of length 1\nImaging Library not available, unable to import bitmaps only jpegs\nfileName='img008.jpg' identity=[ImageReader@0x7f30b9a42be0 filename='img008.jpg']\nfileName='img008.jpg' identity=[ImageReader@0x7f30b9a42be0 filename='img008.jpg']\n>>> img005.jpg\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 48, in <module>\n  File \"<string>\", line 25, in get_files\nAttributeError: 'module' object has no attribute 'urlretrieve'\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 1, in <module>\nImportError: No module named 'urllib.urlretrieve'\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 1, in <module>\nImportError: cannot import name 'urlretrieve'\n>>> Traceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 1\n    from urllib import request.urlretrieve\n                              ^\nSyntaxError: invalid syntax\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 49, in <module>\n  File \"<string>\", line 44, in create_pdf\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 1127, in build\n    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 890, in build\n    self.handle_flowable(flowables)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 773, in handle_flowable\n    if frame.add(f, canv, trySplit=self.allowSplitting):\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/frames.py\", line 161, in _add\n    w, h = flowable.wrap(aW, h)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 477, in wrap\n    return self.drawWidth, self.drawHeight\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 471, in __getattr__\n    self._setup_inner()\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 437, in _setup_inner\n    img = self._img\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 467, in __getattr__\n    self._img = ImageReader(self._file)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 759, in __init__\n    annotateException('\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 753, in __init__\n    annotateException('\\nImaging Library not available, unable to import bitmaps only jpegs\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 751, in __init__\n    self._width,self._height,c=readJPEGInfo(self.fp)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/pdfbase/pdfutils.py\", line 237, in readJPEGInfo\n    x = struct.unpack('B', image.read(1))\nstruct.error: unpack requires a bytes object of length 1\nImaging Library not available, unable to import bitmaps only jpegs\nfileName='img008.jpg' identity=[ImageReader@0x7f30b9a97710 filename='img008.jpg']\nfileName='img008.jpg' identity=[ImageReader@0x7f30b9a97710 filename='img008.jpg']\n>>> img005.jpg\nimg006.jpg\nimg007.jpg\nimg008.jpg\nimg009.jpg\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 49, in <module>\n  File \"<string>\", line 44, in create_pdf\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 1127, in build\n    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 890, in build\n    self.handle_flowable(flowables)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 773, in handle_flowable\n    if frame.add(f, canv, trySplit=self.allowSplitting):\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/frames.py\", line 161, in _add\n    w, h = flowable.wrap(aW, h)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 477, in wrap\n    return self.drawWidth, self.drawHeight\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 471, in __getattr__\n    self._setup_inner()\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 437, in _setup_inner\n    img = self._img\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 467, in __getattr__\n    self._img = ImageReader(self._file)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 759, in __init__\n    annotateException('\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 753, in __init__\n    annotateException('\\nImaging Library not available, unable to import bitmaps only jpegs\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 751, in __init__\n    self._width,self._height,c=readJPEGInfo(self.fp)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/pdfbase/pdfutils.py\", line 237, in readJPEGInfo\n    x = struct.unpack('B', image.read(1))\nstruct.error: unpack requires a bytes object of length 1\nImaging Library not available, unable to import bitmaps only jpegs\nfileName='img008.jpg' identity=[ImageReader@0x7f30bd3df2b0 filename='img008.jpg']\nfileName='img008.jpg' identity=[ImageReader@0x7f30bd3df2b0 filename='img008.jpg']\n>>> http://research.cyber.ee/~madeline/Herstein/\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nhttp://research.cyber.ee/~madeline/Herstein/\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nhttp://research.cyber.ee/~madeline/Herstein/\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nhttp://research.cyber.ee/~madeline/Herstein/\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nhttp://research.cyber.ee/~madeline/Herstein/\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \"<string>\", line 50, in <module>\n  File \"<string>\", line 45, in create_pdf\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 1127, in build\n    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 890, in build\n    self.handle_flowable(flowables)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/doctemplate.py\", line 773, in handle_flowable\n    if frame.add(f, canv, trySplit=self.allowSplitting):\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/frames.py\", line 161, in _add\n    w, h = flowable.wrap(aW, h)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 477, in wrap\n    return self.drawWidth, self.drawHeight\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 471, in __getattr__\n    self._setup_inner()\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 437, in _setup_inner\n    img = self._img\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/platypus/flowables.py\", line 467, in __getattr__\n    self._img = ImageReader(self._file)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 759, in __init__\n    annotateException('\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 753, in __init__\n    annotateException('\\nImaging Library not available, unable to import bitmaps only jpegs\\nfileName=%r identity=%s'%(fileName,self.identity()))\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 1337, in annotateException\n    rl_reraise(t,v,b)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 136, in rl_reraise\n    raise v\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/lib/utils.py\", line 751, in __init__\n    self._width,self._height,c=readJPEGInfo(self.fp)\n  File \"/home/riley/.virtualenvs/pywork3/lib/python3.4/site-packages/reportlab/pdfbase/pdfutils.py\", line 237, in readJPEGInfo\n    x = struct.unpack('B', image.read(1))\nstruct.error: unpack requires a bytes object of length 1\nImaging Library not available, unable to import bitmaps only jpegs\nfileName='img008.jpg' identity=[ImageReader@0x7f30b9a421d0 filename='img008.jpg']\nfileName='img008.jpg' identity=[ImageReader@0x7f30b9a421d0 filename='img008.jpg']\n>>> http://research.cyber.ee/~madeline/Herstein/img005.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img006.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img007.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img008.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img009.jpg\nhttp://research.cyber.ee/~madeline/Herstein/img003.jpg\n>>> >>> ['img005.jpg', 'img006.jpg', 'img007.jpg', 'img008.jpg', 'img009.jpg', 'img010.jpg', 'img011.jpg', 'img012.jpg', 'img013.jpg', 'img014.jpg', 'img015.jpg', 'img016.jpg', 'img017.jpg', 'img018.jpg', 'img019.jpg', 'img020.jpg', 'img021.jpg', 'img022.jpg', 'img023.jpg', 'img024.jpg', 'img025.jpg', 'img026.jpg', 'img027.jpg', 'img028.jpg', 'img029.jpg', 'img030.jpg', 'img031.jpg', 'img032.jpg', 'img033.jpg', 'img034.jpg', 'img035.jpg', 'img036.jpg', 'img037.jpg', 'img038.jpg', 'img039.jpg', 'img040.jpg', 'img041.jpg', 'img042.jpg', 'img043.jpg', 'img044.jpg', 'img045.jpg', 'img046.jpg', 'img047.jpg', 'img048.jpg', 'img049.jpg', 'img050.jpg', 'img051.jpg', 'img052.jpg', 'img053.jpg', 'img054.jpg', 'img055.jpg', 'img056.jpg', 'img057.jpg', 'img058.jpg', 'img059.jpg', 'img060.jpg', 'img061.jpg', 'img062.jpg', 'img063.jpg', 'img064.jpg', 'img065.jpg', 'img066.jpg', 'img067.jpg', 'img068.jpg', 'img069.jpg']\n>>> >>> 			 ",
+			"settings":
+			{
+				"buffer_size": 30935,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 268.0,
+		"selected_items":
+		[
+			[
+				"env",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"vir",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"virtua",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"virt",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"env v",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"virn",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"vi",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"",
+				"Bookmarks: Select Previous"
+			],
+			[
+				"virtu",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"su",
+				"SublimeREPL: Python"
+			],
+			[
+				"re",
+				"SublimeREPL: Python"
+			],
+			[
+				"sub",
+				"SublimeREPL: Python"
+			],
+			[
+				"sur",
+				"SublimeREPL: Python"
+			],
+			[
+				"surepl",
+				"SublimeREPL: Python"
+			],
+			[
+				"sureplpy",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"rep",
+				"SublimeREPL: Python"
+			],
+			[
+				"sub py",
+				"SublimeREPL: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ss py",
+				"Set Syntax: Python"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack con in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/riley/python practice/Euler"
+	],
+	"file_history":
+	[
+		"/home/riley/Desktop/Schedule.csmo",
+		"/home/riley/python practice/Euler/data13.txt",
+		"/home/riley/python practice/Euler/qSort.py",
+		"/home/riley/python practice/Euler/qSortInPlace.py",
+		"/home/riley/python practice/Euler/euler41.py",
+		"/home/riley/python practice/Euler/euler7.py",
+		"/home/riley/python practice/Euler/euler8.py",
+		"/home/riley/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/riley/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/riley/python practice/Euler/euler2.py",
+		"/home/riley/python practice/Euler/euler1.py",
+		"/home/riley/python practice/Euler/euler3.py",
+		"/home/riley/python practice/Euler/euler4.py",
+		"/home/riley/python practice/Euler/euler5.py",
+		"/home/riley/python practice/Euler/euler6.py",
+		"/home/riley/python practice/Euler/euler8-2.py",
+		"/home/riley/python practice/Euler/euler3",
+		"/home/riley/python practice/hello.py",
+		"/home/riley/.config/sublime-text-3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/home/riley/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http",
+			"mag",
+			", ",
+			"list",
+			"right",
+			"left",
+			" ",
+			"\\w",
+			"knob",
+			"maximum",
+			"CheckPandigital",
+			" **** ",
+			"**** ",
+			"****",
+			"******",
+			"9797760",
+			"23514624000",
+			"4898880",
+			"5576689664895",
+			"newVal",
+			"(\\W)m(\\W)",
+			"\\n",
+			"sqrt"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\t",
+			"lastVal",
+			"\\1maximum\\2",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Euler/euler13.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "file-grabber.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								428
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30935,
+								30935
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "77440b06ae0249998e8a153f3901a72b",
+							"repl_restart_args":
+							{
+								"autocomplete_server": true,
+								"cmd":
+								[
+									"/home/riley/.virtualenvs/pywork3/bin/python",
+									"-u",
+									"${packages}/SublimeREPL/config/Python/ipy_repl.py"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PATH": "/home/riley/.virtualenvs/pywork3/bin",
+									"PYTHONIOENCODING": "utf-8",
+									"SUBLIMEREPL_ACTIVATE_THIS": "/home/riley/.virtualenvs/pywork3/bin/activate_this.py"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 27.0,
+						"translation.y": 19782.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "learning-python.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"da",
+				"data13.txt"
+			],
+			[
+				"dat",
+				"data13.txt"
+			],
+			[
+				"q",
+				"qSort.py"
+			],
+			[
+				"eu7",
+				"euler7.py"
+			],
+			[
+				"e5",
+				"euler5.py"
+			],
+			[
+				"e4",
+				"euler4.py"
+			],
+			[
+				"euler3",
+				"euler3.py"
+			],
+			[
+				"euler2",
+				"euler2.py"
+			],
+			[
+				"euler1",
+				"euler1.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -2,4 +2,5 @@
 *.class
 *.project
 !*.java
-
+!*.py
+!*.txt
