@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="32138" name="Modified Solarized Dark" modified="2014-11-07 00:37:33" author="Riley">
+    <searchResultIndication color="#073642" />
+    <filteredSearchResultIndication color="#073642" />
+    <occurrenceIndication color="#073642" />
+    <writeOccurrenceIndication color="#073642" />
+    <findScope color="#E0E2E4" />
+    <deletionIndication color="#E0E2E4" />
+    <sourceHoverBackground color="#FFFFFF" />
+    <singleLineComment color="#586E75" bold="false" italic="true" />
+    <multiLineComment color="#586E75" italic="true" />
+    <commentTaskTag color="#D33682" bold="true" />
+    <javadoc color="#7D8C93" />
+    <javadocLink color="#8D9CC3" bold="true" underline="true" strikethrough="false" />
+    <javadocTag color="#2AA198" />
+    <javadocKeyword color="#A082BD" />
+    <class color="#678CB1" />
+    <interface color="#678CB1" />
+    <method color="#7B4B16" bold="false" />
+    <methodDeclaration color="#268BD2" />
+    <bracket color="#586E75" />
+    <number color="#2AC198" />
+    <string color="#2AA198" />
+    <operator color="#A56900" />
+    <keyword color="#558950" />
+    <annotation color="#CB4B16" />
+    <staticMethod color="#9B2B16" />
+    <localVariable color="#268BB2" />
+    <localVariableDeclaration color="#268BB2" />
+    <field color="#678CB1" italic="true" />
+    <staticField color="#679CB1" italic="true" />
+    <staticFinalField color="#679CB1" italic="true" />
+    <deprecatedMember color="#E0E2E4" />
+    <enum color="#E0E2E4" />
+    <inheritedMethod color="#7B4B16" />
+    <abstractMethod color="#7B4B16" />
+    <parameterVariable color="#705274" />
+    <typeArgument color="#958000" />
+    <typeParameter color="#958000" />
+    <constant color="#2AA198" />
+    <background color="#002025" />
+    <currentLine color="#08233D" />
+    <foreground color="#839496" />
+    <lineNumber color="#657B83" />
+    <selectionBackground color="#20383B" />
+    <selectionForeground color="#93A1A1" />
+</colorTheme>
