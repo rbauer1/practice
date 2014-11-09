@@ -1,5 +1,7 @@
 package dataStructures;
 
+import java.util.Random;
+
 import problems.ch3.QueueFromStacks;
 @SuppressWarnings("unused")
 public class DataStructuresMain {
@@ -9,7 +11,24 @@ public class DataStructuresMain {
 //		testQueueFromStacks();
 //		testBinarySearchTree();
 //		testBSTFromArray();
-		testDiGraph();
+//		testDiGraph();
+		testRB_BST();
+	}
+	
+	private static void testRB_BST(){
+		RB_BST<Integer> rbBST = new RB_BST<Integer>(0);
+		Random gen = new Random();
+		int[] test = {28, 68,77,36,75,82};
+//		for(int i=1; i<test.length; i++){
+		for(int i=1; i<100; i++){
+			rbBST.insert(gen.nextInt(100));
+//			rbBST.insert(i);
+//			rbBST.insert(test[i]);
+//			rbBST.traverseInOrder();
+//			System.out.println("-----");
+		}
+		rbBST.traverseBFS();
+		System.out.println(rbBST.isBalanced());
 	}
 	
 	private static void testDiGraph(){
@@ -35,6 +54,29 @@ public class DataStructuresMain {
 		System.out.println(graph);
 		System.out.println(graph.findPath());
 		System.out.println(graph.findMaxFlow());
+		System.out.println(graph);
+		System.out.println(graph.topoSortDFS());
+		
+		System.out.println("-------------");
+		
+		DiGraph<Character> unfortunateGraph = new DiGraph<Character>('s');
+		unfortunateGraph.addEdge('s','a',1000);
+		unfortunateGraph.addEdge('a','s',0);
+		unfortunateGraph.addEdge('s','b',1000);
+		unfortunateGraph.addEdge('b','s',0);
+		unfortunateGraph.addEdge('a','b',1);
+		unfortunateGraph.addEdge('b','a',0);
+		unfortunateGraph.addEdge('a','t',1000);
+		unfortunateGraph.addEdge('t','a',0);
+		unfortunateGraph.addEdge('b','t',1000);
+		unfortunateGraph.addEdge('t','b',0);
+		unfortunateGraph.setSink('t');
+		unfortunateGraph.setSource('s');
+		System.out.println(unfortunateGraph);
+		System.out.println(unfortunateGraph.findPath());
+		System.out.println(unfortunateGraph.findMaxFlow());
+		System.out.println(unfortunateGraph);
+		
 	}
 	
 	private static void testBinarySearchTree(){

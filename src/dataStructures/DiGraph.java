@@ -1,6 +1,7 @@
 package dataStructures;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -128,8 +129,42 @@ public class DiGraph<V> {
 		this.sink = sink;
 	}
 
-
-
+	public LinkedList<V> topoSortDFS(){
+		LinkedList<V> queue = new LinkedList<V>();
+		Map<V, boolean[]> markMap = new HashMap<V, boolean[]>();
+		Stack<V> unmarked = new Stack<V>();
+		for(V v: graph.keySet()){
+			unmarked.push(v);
+			markMap.put(v, new boolean[]{false, false});
+		}
+		while(! unmarked.isEmpty()){
+			V current = unmarked.pop();
+			try {
+				visit(current, queue, markMap);
+			} catch (Exception e) {
+				System.out.println("ERROR: This graph is not a DAG. Aborting topoSort");
+				return null;
+			}
+		}
+		return queue;
+	}
+	
+	private void visit(V current, LinkedList<V> queue, Map<V, boolean[]> markMap) throws Exception{
+		if(markMap.get(current)[0]){
+			throw new Exception();
+		}
+		if(! markMap.get(current)[1]){
+			markMap.get(current)[0] = true;
+			for(Edge<V> e : graph.get(current)){
+				V next = e.to;
+				visit(next, queue, markMap);
+			}
+			markMap.get(current)[1] = true;
+			markMap.get(current)[0] = false;
+			queue.offerFirst(current);
+		}
+	}
+	
 	private static class Edge<V>{
 		V from, to;
 		int capacity, flow;

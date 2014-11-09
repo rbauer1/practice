@@ -145,6 +145,10 @@ public class LinkedList<T> {
 		return insertAt(new Node<T>(data), index);
 	}
 	
+	public boolean isEmpty(){
+		return length < 1;
+	}
+	
 	public T peek(){
 		if(length > 0){
 			return head.data;
