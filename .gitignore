@@ -1,6 +1,8 @@
 # just java files for now
 *.class
 *.project
+*.classpath
+*.prefs
 !*.java
 !*.py
 !*.txt
