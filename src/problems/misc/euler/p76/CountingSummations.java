@@ -1,24 +1,25 @@
-package problems.misc;
+package problems.misc.euler.p76;
 
 import java.util.Arrays;
-
-public class ChangeForDollar {
+/**
+ * Another variation of the coin sum counting problem
+ */
+public class CountingSummations {
 	private int dollar;
 	private int[] coins;
 	private int[][] table;
 	
 	public static void main(String[] args){
-//		int[] c = {1,2,5,10,20,50,100,200};
 		int[] c = new int[99];
 		for(int i=1; i<100; i++){
 			c[i-1] = i;
 		}
-		ChangeForDollar cdf = new ChangeForDollar(100, c);
+		CountingSummations cdf = new CountingSummations(100, c);
 		cdf.waysToMakeX();
 		System.out.println(cdf.table[cdf.dollar][cdf.coins.length]);
 	}
 	
-	public ChangeForDollar(int dollar, int[] coins){
+	public CountingSummations(int dollar, int[] coins){
 		Arrays.sort(coins);
 		this.dollar = dollar;
 		this.table = new int[dollar + 1][coins.length + 1];

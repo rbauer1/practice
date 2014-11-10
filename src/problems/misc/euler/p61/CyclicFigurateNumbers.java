@@ -63,6 +63,8 @@ public class CyclicFigurateNumbers {
 		}
 		// System.out.println(sum+"\t"+Arrays.toString(i));
 		// }
+		
+		
 		outer: for (ArrayList<Integer> ar : polyNums.get(5).values()) {
 			for (int i : ar) {
 				final int[] path = find(i, 0, i, new int[][] { { 0, 1, 2, 3, 4 },
