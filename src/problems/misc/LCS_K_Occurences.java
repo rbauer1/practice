@@ -2,10 +2,17 @@ package problems.misc;
 
 import java.util.Arrays;
 
+/**
+ * The solution to the LCS with K Occurrences problem from the Fall 2014 ACM Competition.
+ * (Problem 2: GATTACA)
+ * @author Riley Bauer
+ *
+ */
 public class LCS_K_Occurences {
 	public static void main(String[] args) {
 		System.out.println(findLCS_WithK_Occurences("GATTACA",
 				"TACATTACGCATTACACAT", 3));
+		System.out.println();
 	}
 
 	/**
@@ -21,21 +28,32 @@ public class LCS_K_Occurences {
 	 * the LCS itself) When the row index - (largest value found) is less than
 	 * 0, there cannot be a longer substring in the unexamined rows and we can
 	 * confidently return the substring of s1 beginning at index-(largest value
-	 * found) and ending at index
+	 * found) and ending at index.
+	 * </br></br>
+	 * Overall time complexity where s1.length() = n, s2.length() = m is:</br>
+	 * O(n*m + n*(n*log(n)) + n) =</br>
+	 * O(n*m) | if s2.length() > s1.length()*log(s1.length())</br> 
+	 * O((n^2)*log(n)) | otherwise
+	 * </br></br>
+	 * Space complexity is also O(n*m)
 	 * 
-	 * @param s1 the string which must have at least one occurrence of the LCS
-	 * @param s2 the string which must have the k occurrences of the LCS
-	 * @param k the minimum number of times that the substring must occur in s2 
+	 * @param s1
+	 *            the string which must have at least one occurrence of the LCS
+	 * @param s2
+	 *            the string which must have the k occurrences of the LCS
+	 * @param k
+	 *            the minimum number of times that the substring must occur in
+	 *            s2
 	 * @return the LCS of s1 and s2 occurring at least k times in s2
 	 */
-	public static String findLCS_WithK_Occurences(String s1, String s2, int k) {
+	public static String findLCS_WithK_Occurences(final String s1, final String s2, final int k) {
 		if (s1 == null || s2 == null || k < 1) {
 			if (k == 0) {
 				return s1;
 			}
 			return "";
 		}
-		int[][] compTable = new int[s1.length() + 1][s2.length() + 1];
+		final int[][] compTable = new int[s1.length() + 1][s2.length() + 1];
 		for (int i = 0; i < compTable.length; i++) {
 			compTable[i][0] = 0;
 		}
