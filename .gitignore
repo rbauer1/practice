@@ -1,8 +1,12 @@
-# just java files for now
+# Do not need java binaries
+bin/
 *.class
 *.project
 *.classpath
 *.prefs
+# include java files
 !*.java
+# include python files
 !*.py
+# include txt files
 !*.txt
