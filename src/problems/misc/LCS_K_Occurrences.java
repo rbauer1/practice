@@ -8,9 +8,9 @@ import java.util.Arrays;
  * @author Riley Bauer
  *
  */
-public class LCS_K_Occurences {
+public class LCS_K_Occurrences {
 	public static void main(String[] args) {
-		System.out.println(findLCS_WithK_Occurences("GATTACA",
+		System.out.println(findLCS_WithK_Occurrences("GATTACA",
 				"TACATTACGCATTACACAT", 3));
 		System.out.println();
 	}
@@ -46,7 +46,7 @@ public class LCS_K_Occurences {
 	 *            s2
 	 * @return the LCS of s1 and s2 occurring at least k times in s2
 	 */
-	public static String findLCS_WithK_Occurences(final String s1, final String s2, final int k) {
+	public static String findLCS_WithK_Occurrences(final String s1, final String s2, final int k) {
 		if (s1 == null || s2 == null || k < 1) {
 			if (k == 0) {
 				return s1;

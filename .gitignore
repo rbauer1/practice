@@ -10,3 +10,8 @@ bin/
 !*.py
 # include txt files
 !*.txt
+# do not include certain user-specific intellij files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries/*.xml
+*.iws
