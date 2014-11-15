@@ -1,5 +1,6 @@
 # Do not need java binaries
 bin/
+out/
 *.class
 *.project
 *.classpath
