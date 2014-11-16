@@ -1,8 +1,10 @@
 package dataStructures;
 
-import java.util.Random;
-
 import problems.ch3.QueueFromStacks;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Random;
 @SuppressWarnings("unused")
 public class DataStructuresMain {
 	public static void main(String[] args){
@@ -12,9 +14,51 @@ public class DataStructuresMain {
 //		testBinarySearchTree();
 //		testBSTFromArray();
 //		testDiGraph();
-		testRB_BST();
+//		testRB_BST();
+		testHeap();
 	}
-	
+
+	private static void testHeap(){
+		Integer[] testAr1 = {1,4,2,7,2,3,4,8,5,0,9};
+		Integer[] testAr2 = {0,0,0,0,0,0,0,0,0,0,0};
+		heapTests(testAr1);
+		heapTests(testAr2);
+	}
+
+	private static void heapTests(Integer[] testAr){
+		System.out.println("Array to test with:\n"+Arrays.toString(testAr) + "\n");
+		Heap<Integer> heap = new Heap<Integer>(testAr);
+		System.out.println("Array before: " + Arrays.toString(testAr));
+		System.out.println("Array heapified: " + heap);
+		heap.heapSort();
+		System.out.println("Array heapSorted: " + heap + "\n");
+
+		ArrayList<Integer> testArList = new ArrayList<Integer>();
+		for(Integer i : testAr) {
+			testArList.add(i);
+		}
+		heap = new Heap<Integer>(testArList);
+		System.out.println("Array before: " + testArList);
+		System.out.println("Array heapified: " + heap);
+		heap.heapSort();
+		System.out.println("Array heapSorted: " + heap + "\n");
+
+		heap = new Heap<Integer>();
+		for(Integer i : testAr){
+			heap.push(i);
+		}
+		System.out.println("Array before: " + Arrays.toString(testAr));
+		System.out.println("Array heapified: " + heap);
+		heap.heapSort();
+		System.out.println("Array heapSorted: " + heap + "\n");
+
+		System.out.println("Poll Test:");
+		while(! heap.isEmpty()){
+			System.out.println(heap.poll()+"\t"+heap);
+		}
+		System.out.println();
+	}
+
 	private static void testRB_BST(){
 		RB_BST<Integer> rbBST = new RB_BST<Integer>(0);
 		Random gen = new Random();
@@ -22,8 +66,8 @@ public class DataStructuresMain {
 //		for(int i=1; i<test.length; i++){
 		for(int i=1; i<100; i++){
 			rbBST.insert(gen.nextInt(100));
-//			rbBST.insert(i);
-//			rbBST.insert(test[i]);
+//			rbBST.push(i);
+//			rbBST.push(test[i]);
 //			rbBST.traverseInOrder();
 //			System.out.println("-----");
 		}
