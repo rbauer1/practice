@@ -32,7 +32,8 @@ def swap(the_list, a, b):
     the_list[a] = the_list[b]
     the_list[b] = temp
 
-the_list = [22, 37, 32, 8, 18, 8, 48, 6]
+#the_list = [22, 37, 32, 8, 18, 8, 48, 6]
+the_list = [1,2,3,8,4,5,6,7]
 
 print(the_list)
 qSort(the_list)
