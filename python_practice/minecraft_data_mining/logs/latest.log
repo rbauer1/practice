@@ -1,0 +1,7 @@
+[00:57:39] [Server thread/INFO]: dulynoted lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[00:57:39] [Server thread/INFO]: dulynoted left the game
+[01:47:56] [Server thread/INFO]: PlusTwoMace[/192.168.1.1:50879] logged in with entity id 1481963 at (136.30000001192093, 69.0, 59.900402832780046)
+[01:47:56] [Server thread/INFO]: PlusTwoMace joined the game
+[01:48:25] [Server thread/INFO]: [PlusTwoMace: Changing to clear weather]
+[01:48:57] [Server thread/INFO]: PlusTwoMace lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[01:48:57] [Server thread/INFO]: PlusTwoMace left the game
