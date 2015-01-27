@@ -1,6 +1,6 @@
 package dataStructures;
 
-import problems.ch3.QueueFromStacks;
+import problems.cracking_code.ch3.QueueFromStacks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,8 +14,8 @@ public class DataStructuresMain {
 //		testBinarySearchTree();
 //		testBSTFromArray();
 //		testDiGraph();
-//		testRB_BST();
-		testHeap();
+		testRB_BST();
+//		testHeap();
 	}
 
 	private static void testHeap(){

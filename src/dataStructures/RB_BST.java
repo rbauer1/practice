@@ -78,7 +78,7 @@ public class RB_BST<T extends Comparable<T>>{
 		case -1:
 			return (child.right == null) ? null : find(value, child.right);
 		default:
-			System.err.println("This point in the contains(...) method should never be reached");
+			System.err.println("This point in the find(...) method should never be reached");
 			return null;
 		}
 	}
@@ -174,7 +174,7 @@ public class RB_BST<T extends Comparable<T>>{
 	public void insert(T key){
 		insert(key, findRoot());
 	}
-	//TODO balancing does not work.ex
+
 	private void insert(T key, RB_BST<T> tree){
 		if(tree.key.compareTo(key) >= 0){
 			if(tree.left == null){
@@ -206,11 +206,11 @@ public class RB_BST<T extends Comparable<T>>{
 	private void repaint3(RB_BST<T> child){
 		RB_BST<T> uncle = findUncle(child);
 		if(uncle != null && uncle.red){
-		uncle.red = false;
-		child.parent.red = false;
-		RB_BST<T> grand = findGrandParent(child);
-		grand.red = true;
-		repaint1(grand);
+			uncle.red = false;
+			child.parent.red = false;
+			RB_BST<T> grand = findGrandParent(child);
+			grand.red = true; //grand always exists because uncle is not null
+			repaint1(grand);
 		}else{
 			repaint4(child);
 		}

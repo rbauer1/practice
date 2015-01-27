@@ -79,7 +79,7 @@ public class Heap<T extends Comparable<T>> {
 
     private void siftDown(ArrayList<T> heap, final int start, final int end){
         int root = start;
-        while(root * 2 + 1 <= end){ //while root has at < 0 children
+        while(root * 2 + 1 <= end){ //while root has at least 1 child
             final int child = root * 2 + 1;
             int swapChild = root;
             if(heap.get(swapChild).compareTo(heap.get(child)) > 0){

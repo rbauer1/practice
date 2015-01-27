@@ -7,14 +7,13 @@ def findMatch(word, string):
         if word[wordPosition] == string[wordPosition + stringPosition]:
             if wordPosition == len(word) - 1:
                 return stringPosition
-            wordPosition = wordPosition + 1
+            wordPosition += 1
         elif table[wordPosition] > -1:
-            stringPosition = stringPosition + \
-                wordPosition - table[wordPosition]
+            stringPosition += wordPosition - table[wordPosition]
             wordPosition = table[wordPosition]
         else:
             wordPosition = 0
-            stringPosition = stringPosition + 1
+            stringPosition += 1
     return len(string)
 
 
@@ -25,14 +24,14 @@ def createFailureTable(word):
     table[0] = -1
     while position < len(word):
         if word[position - 1] == word[current]:
-            current = current + 1
+            current += 1
             table[position] = current
-            position = position + 1
+            position += 1
         elif current > 0:
             current = table[current]
         else:
             table[position] = 0
-            position = position + 1
+            position += 1
     return table
 
 print(findMatch('ABCDABD', 'ABC ABCDAB ABCDABCDABDE'))
