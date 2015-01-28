@@ -21,7 +21,7 @@ public class NegativeBases {
                 {4016423, 7}
         };
         for (int[] testCase : tests) {
-            System.out.printf("Base: %4d N: %- 10d   -Base: %4d N: % d%n", testCase[1], testCase[0], -testCase[1], nb.convertNegToPos(testCase[0], testCase[1]));
+            System.out.printf("Base: %4d N: %- 10d   -Base: %4d N: % d%n", testCase[1], testCase[0], -testCase[1], nb.convertToOppositeSignBase(testCase[0], testCase[1]));
         }
     }
 
@@ -39,23 +39,50 @@ public class NegativeBases {
         return result;
     }
 
-    //if digit location is odd (0-indexed. power is odd),
-    // and the digit is > 0, then replace that digit with
-    // base-digit and subtract 1 from digit to the left (greater)
-
-    public int convertNegToPos(int num, int base){
-        base *= base<0?-1:1;
+    /**
+     * Given a <code>number</code> in some <code>base</code>, this will return the same value number represented in
+     * <code>-base</code>. <br>
+     * e.g. 324 base 7 is 454 base -7 <br>
+     * 342 base -5 is 212 base 5
+     * @param num in some base given by
+     * @param base
+     * @return the same value number represented in <code>-base</code>
+     */
+    public int convertToOppositeSignBase(int num, int base) {
+        if (base == 0) {
+            throw new IllegalArgumentException("Cannot have base 0");
+        }
+        boolean pos = base > 0;
+        base *= pos ? 1 : -1;
         int powerTen = 10;
-        while(powerTen < num) {
+        while (powerTen < num) {
             final int thisDigit = (num / powerTen) % 10;
             if (thisDigit != 0) {
-                num -= powerTen * 10 - powerTen * (base - 2 * thisDigit);
+                if (pos) {
+                    num += powerTen * (10 + base - 2 * thisDigit);
+                } else {
+                    /*
+                    this step has had some algebra done to simplify the operation. what's actually happening is the
+                    number is having its digit one to the left of the current odd-power/place digit (thisDigit)
+                    decremented by 1 (if thisDigit is not zero, hence the if above, thisDigit is then reduced to 0, and
+                    then replaced by abs(base)-(previous value of thisDigit). These multiple steps can be combined into
+                    the single operation seen below. The same, but reversed, goes for the other branch of this innermost
+                     if-statement
+                     */
+                    num -= powerTen * (10 - base + 2 * thisDigit);
+                }
             }
             powerTen *= 100;
         }
         return num;
     }
 
+    /**
+     * Very quickly determines the number of digits in an int
+     * http://stackoverflow.com/questions/1306727/way-to-get-number-of-digits-in-an-int
+     * @param n
+     * @return
+     */
     private int num_digits(int n) {
         if (n < 100000) {    // 5 or less digits
             if (n < 100) {   // 1 or 2
