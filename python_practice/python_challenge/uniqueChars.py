@@ -11,6 +11,7 @@ def findUniqueChars():
             if char in ascii:
                 print(char, end="", flush=True)
     print()
+    f.close()
     #below will print all ascii chars in the file, but they are out of order
     #uniqueChars = set(f.read())
     #print(''.join([c for c in uniqueChars if c in ascii]))
